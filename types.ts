@@ -17,7 +17,7 @@ export interface Project {
 
 export interface Skill {
   name: string;
-  icon: LucideIcon;
+  icon: LucideIcon | string;
   color: string;
 }
 
